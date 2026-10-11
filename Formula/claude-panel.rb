@@ -1,25 +1,25 @@
 class ClaudePanel < Formula
-  desc "Terminal dashboard for Claude Code: plan limits, token usage, skills, plugins and MCP servers"
+  desc "Terminal dashboard for Claude Code: plan limits, token usage, skills, plugins, MCP servers and hooks"
   homepage "https://github.com/ToroVtn/claude-panel"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.1/claude-panel-aarch64-apple-darwin.tar.xz"
-      sha256 "252d0b5d65bab454e2afe5f583e05885f7bac55059db0b7ea72908e3517cac3a"
+      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.2/claude-panel-aarch64-apple-darwin.tar.xz"
+      sha256 "bdf2d16931f54cff08ed2ceb76fd9cb11861fde06f4e24e7ac8da39883a540d9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.1/claude-panel-x86_64-apple-darwin.tar.xz"
-      sha256 "28f64682197b2afdf176d40cc69fb2ec52c20183ff89a6de7cb6482e3f51bda0"
+      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.2/claude-panel-x86_64-apple-darwin.tar.xz"
+      sha256 "2956834d98c1739127c8dc37c42d7e050cdc06147005e8636e9c457e7ad3ad28"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.1/claude-panel-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "bd0c4d52724a75a6a3c1617c63733cb6bbcdd9f5fc9189bc7fe6cbc605ed2706"
+      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.2/claude-panel-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2d78a73205eed978fd35362f8a60f7872b965d391fe4d87db66ad5243889eb8b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.1/claude-panel-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "41dec3cbb32f1172a60c23af7bdf427fead94e20db3a63e22c22735e6fe56b8d"
+      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.2/claude-panel-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "05623ee844a26d115e4e6f008a05928d9e06ff71f0ee26e0c4cfc5e97724e6cb"
     end
   end
   license "MIT"
