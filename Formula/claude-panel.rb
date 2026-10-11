@@ -1,25 +1,25 @@
 class ClaudePanel < Formula
   desc "Terminal dashboard for Claude Code: plan limits, token usage, skills, plugins and MCP servers"
   homepage "https://github.com/ToroVtn/claude-panel"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.0/claude-panel-aarch64-apple-darwin.tar.xz"
-      sha256 "39205c9b931ddfa283d194f5af5e7abe5862d3d9813589cf4e65929ab10b8e7c"
+      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.1/claude-panel-aarch64-apple-darwin.tar.xz"
+      sha256 "252d0b5d65bab454e2afe5f583e05885f7bac55059db0b7ea72908e3517cac3a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.0/claude-panel-x86_64-apple-darwin.tar.xz"
-      sha256 "da5a2b37e98b01744ba218ead22d2b0f2baba2a8962ed49cfbfbcf8b745938f9"
+      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.1/claude-panel-x86_64-apple-darwin.tar.xz"
+      sha256 "28f64682197b2afdf176d40cc69fb2ec52c20183ff89a6de7cb6482e3f51bda0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.0/claude-panel-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "681de1c8dfff665690cfef8888e04eda34cf7427447f2c7d1928dd67fc711d1a"
+      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.1/claude-panel-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "bd0c4d52724a75a6a3c1617c63733cb6bbcdd9f5fc9189bc7fe6cbc605ed2706"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.0/claude-panel-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b92e9e317b7bc69ee6aa174a9090910981e22d78650c39d307f37e4c9f020df2"
+      url "https://github.com/ToroVtn/claude-panel/releases/download/v0.1.1/claude-panel-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "41dec3cbb32f1172a60c23af7bdf427fead94e20db3a63e22c22735e6fe56b8d"
     end
   end
   license "MIT"
